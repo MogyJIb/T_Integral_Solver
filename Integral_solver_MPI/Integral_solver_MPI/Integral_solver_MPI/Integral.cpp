@@ -60,16 +60,5 @@ double Integral::countC(int n) {
 }
 
 double Integral::function(double x, double y, double z) {
-	double result = processorRpn->function(x, y, z);
-
-	logger.logI(
-		to_tstring(result)
-		.append(_T("  -result from rpn   x: "))
-		.append(to_tstring(x))
-		.append(_T("   y: "))
-		.append(to_tstring(y))
-		.append(_T("   z: "))
-		.append(to_tstring(z))
-	);  // log
-	return result;
+	return processorRpn->function(x, y, z);
 }
