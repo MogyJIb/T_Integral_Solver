@@ -1,0 +1,12 @@
+[2019-03-18 00:24:26] INFO: inputFileName:  D:/Studies/Erika/CCI/lab1/Integral_solver_Web_App/out/production/Integral_solver_Web_App/input.txt
+[2019-03-18 00:24:26] INFO: outputFileName:  output.txt
+[2019-03-18 00:24:26] INFO: read input
+[2019-03-18 00:24:26] INFO: input read successful
+[2019-03-18 00:24:26] INFO:           
+[2019-03-18 00:24:26] INFO: 0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+[2019-03-18 00:24:26] INFO: solve integral
+[2019-03-18 00:24:26] INFO: 0.000000  -h_i   0.000000  -h_j   0.000000  -h_k   
+[2019-03-18 00:24:26] INFO: exception in solving integral
+[2019-03-18 00:24:26] INFO: solved, result = 0.000000
+[2019-03-18 00:24:26] INFO: write output
+[2019-03-18 00:24:26] INFO: output write successful

@@ -4,12 +4,27 @@
 
 using namespace std;
 
+tstring Logger::path;
+
 Logger::Logger() {
-	init(_T("logfile.txt"));
+	init(
+		path.empty()
+		? _T("logfile.txt")
+		: tstring(path).append(_T("logfile.txt")).data()
+	);
 }
 
 Logger::Logger(const TCHAR *filename) {
 	init(filename);
+}
+
+Logger::Logger(tstring path) {
+	Logger::path = path;
+	init(
+		path.empty()
+		? _T("logfile.txt")
+		: tstring(path).append(_T("logfile.txt")).data()
+	);
 }
 
 void Logger::init(const TCHAR* filename) {

@@ -161,6 +161,7 @@
   <ItemGroup>
     <ClCompile Include="Converter.cpp" />
     <ClCompile Include="Integral.cpp" />
+    <ClCompile Include="Integral_MPI.cpp" />
     <ClCompile Include="Integral_solver_Core.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="Operation.cpp" />
@@ -169,6 +170,7 @@
   <ItemGroup>
     <ClInclude Include="Converter.h" />
     <ClInclude Include="Integral.h" />
+    <ClInclude Include="Integral_MPI.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="Operation.h" />
     <ClInclude Include="ProcessorRpn.h" />

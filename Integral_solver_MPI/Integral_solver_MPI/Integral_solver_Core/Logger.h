@@ -9,6 +9,9 @@
 
 class Logger
 {
+
+	static tstring path;
+
 public:
 	enum loglevel { LOGWARN, LOGERROR, LOGINFO };
 	tofstream _fhnd;
@@ -18,6 +21,7 @@ public:
 	void logE(tstring);
 	void logW(tstring);
 
+	Logger(tstring path);
 	Logger();
 	Logger(const TCHAR*);
 	~Logger();
@@ -31,3 +35,4 @@ private:
 	void log(loglevel, tstring);
 	void init(const TCHAR*);
 };
+
