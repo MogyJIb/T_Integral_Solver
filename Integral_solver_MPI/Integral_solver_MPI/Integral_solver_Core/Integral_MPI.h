@@ -11,7 +11,7 @@ private:
 	int processId;
 	int processCount = 1;
 	TCHAR* func;
-	const int N = 14;
+	const int N = 28;
 	const double C[14] = {
 							90241897.0 / 1250964000,	// 0
 							44436679.0 / 156370500,		// 1

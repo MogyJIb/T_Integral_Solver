@@ -7,6 +7,9 @@ public class IntegralSolver {
     private static final String OUTPUT = "output.txt";
     private static final String SOLVER = "Integral_solver_Core.exe";
 
+    private static final int PROCESS_COUNT = 5;
+    private static final int USE_MPI = 1;
+
     public double solve(FuncDto funcDto) {
         FileHelper.writeRes(INPUT, funcDto.toString());
         ProcessHelper.runAndWait(buildCommands());
@@ -28,7 +31,7 @@ public class IntegralSolver {
             path = path.substring(1);
         path = path.substring(0, path.length() - SOLVER.length());
 
-        return new String[]{ path + SOLVER, path };
+        return new String[]{ "mpiexec", "-n", String.valueOf(PROCESS_COUNT), path + SOLVER, path, String.valueOf(USE_MPI) };
     }
 
 }
