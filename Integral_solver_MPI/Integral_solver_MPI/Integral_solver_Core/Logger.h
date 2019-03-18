@@ -28,7 +28,6 @@ public:
 
 private:
 	TCHAR _dt_fmt[512];
-	std::mutex _msemaphore;
 	const std::vector<tstring>_loglevel_text;
 	tstring getTimeStamp();
 	tstring getLoglevelString(loglevel);

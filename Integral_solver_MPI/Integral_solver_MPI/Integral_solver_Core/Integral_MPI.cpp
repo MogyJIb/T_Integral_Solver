@@ -1,8 +1,11 @@
 #include "Integral_MPI.h"
 
 
-Integral_MPI::Integral_MPI(TCHAR* function) {
+Integral_MPI::Integral_MPI(TCHAR* function, int processId, int processCount) {
 	processorRpn = new ProcessorRpn(function);
+	this->processId = processId;
+	this->processCount = processCount;
+	this->func = function;
 }
 
 Integral_MPI::~Integral_MPI() { }
@@ -23,11 +26,17 @@ double Integral_MPI::solve(const double x1, const double x2,
 		.append(_T("  -h_j   "))
 		.append(to_tstring(h_k))
 		.append(_T("  -h_k   "))
+		.append(func)
+		.append(_T("  -func   "))
+		.append(_T("   process   "))
+		.append(to_tstring(processId))
+		.append(_T("   processCount   "))
+		.append(to_tstring(processCount))
 	);  // log
 
-	double result = 0;
+	double result_part = 0;
 
-	for (int i = 0; i < N; i++) {
+	for (int i = processId; i < N; i = i + processCount) {
 		double x_i = x1 + h_i * i,
 			C_i = countC(i);
 
@@ -41,19 +50,21 @@ double Integral_MPI::solve(const double x1, const double x2,
 
 				double C_ijk = C_i * C_j * C_k;
 
-				result += C_ijk * function(x_i, y_j, z_k);
+				result_part += C_ijk * function(x_i, y_j, z_k);
 			}
 		}
 	}
 
 	logger.logI(
-		to_tstring(result)
-		.append(_T("  -result   "))
+		tstring(_T("result_part   "))
+			.append(to_tstring(result_part))
+			.append(_T("   process   "))
+			.append(to_tstring(processId))
 	); // log
 
-	result *= 343 * h_i * h_j * h_k;
+	result_part *= 343 * h_i * h_j * h_k;
 
-	return result;
+	return result_part;
 }
 
 double Integral_MPI::countC(int n) {

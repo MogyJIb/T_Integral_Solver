@@ -6,49 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35f4f278-7819-4bf5-80c4-576ab86c260a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/by/gstu/it/domain/ClassInjector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/gstu/it/domain/IntegralSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/gstu/it/domain/Integral_solver_MPI.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/gstu/it/presentation/IntegralServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/by/gstu/it/presentation/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Integral_solver_Core.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Integral_solver_Core.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Integral_solver_Core.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Integral_solver_Core.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Integral_solver_Core.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Integral_solver_Core.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Logger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Logger.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/Logger.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/logfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Integral_solver_MPI/Integral_solver_MPI/Integral_solver_Core/logfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/.idea/libraries/Integral_solver_MPI.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/Integral_solver_Core.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/logfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/src/main/java/by/gstu/it/IntegralServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/src/main/java/by/gstu/it/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/src/main/java/by/gstu/it/domain/ClassInjector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/src/main/java/by/gstu/it/domain/IntegralSolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/src/main/java/by/gstu/it/domain/Integral_solver_MPI.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/src/main/webapp/WEB-INF/lib/Integral_solver_MPI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/classes/by/gstu/it/IntegralServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/classes/by/gstu/it/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/classes/by/gstu/it/domain/ClassInjector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/classes/by/gstu/it/domain/IntegralSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Integral_solver_WebApp/target/tomcat/logs/access_log.2019-03-13" beforeDir="false" />
-    </list>
+    <list default="true" id="35f4f278-7819-4bf5-80c4-576ab86c260a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/gstu/it/domain/IntegralSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -84,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/by/gstu/it/presentation/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="71" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="71" />
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,7 +166,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552859770016" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552865661884" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/Integral_solver_MPI.dll" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -349,12 +307,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552636587963</updated>
-      <workItem from="1552636595990" duration="18738000" />
+      <workItem from="1552636595990" duration="20170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18738000" />
+    <option name="totallyTimeSpent" value="20170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1485" height="878" extended-state="6" />
@@ -366,7 +324,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24982457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Terminal" />
@@ -379,7 +337,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994638" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -397,18 +355,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/by/gstu/it/domain/IntegralSolver.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/index.html">
@@ -505,16 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/gstu/it/presentation/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="71" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ProcessBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -565,10 +501,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Integral_solver_Web_App/logfile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/gstu/it/domain/IntegralSolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/gstu/it/presentation/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

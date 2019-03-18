@@ -70,14 +70,7 @@ tstring Logger::getLoglevelString(loglevel level) {
 }
 
 void Logger::log(loglevel level, tstring message) {
-	try {
-		_msemaphore.lock();
-		_fhnd << getTimeStamp() << " " << getLoglevelString(level) << message << endl;
-		_msemaphore.unlock();
-	}
-	catch (std::exception& e) {
-		throw e;
-	}
+	_fhnd << getTimeStamp() << " " << getLoglevelString(level) << message << endl;
 }
 
 void Logger::logI(tstring message) {

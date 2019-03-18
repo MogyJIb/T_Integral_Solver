@@ -24,8 +24,8 @@ double ProcessorRpn::processRpnExpression(list<tstring> rpnOperandList) {
 			double res = 0;
 			if (!isZeroString(operand)) {
 				res = _ttof(operand.data());
-				if (res == 0)
-					throw WRONG_STRING_INPUT_EXCEPTION;
+				/*if (res == 0)
+					throw WRONG_STRING_INPUT_EXCEPTION;*/
 			}
 			processingStack.push(res);
 		}

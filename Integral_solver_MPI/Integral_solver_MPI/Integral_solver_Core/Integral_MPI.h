@@ -8,6 +8,9 @@ class Integral_MPI
 private:
 	Logger logger;
 	ProcessorRpn* processorRpn;
+	int processId;
+	int processCount = 1;
+	TCHAR* func;
 	const int N = 14;
 	const double C[14] = {
 							90241897.0 / 1250964000,	// 0
@@ -30,7 +33,7 @@ private:
 	double function(double x, double y, double z);
 
 public:
-	Integral_MPI(TCHAR* function);
+	Integral_MPI(TCHAR* function, int processId, int processCount);
 	~Integral_MPI();
 
 	double solve(const double x1, const double x2,
