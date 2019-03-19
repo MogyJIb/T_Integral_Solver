@@ -8,9 +8,11 @@ public class IntegralSolver {
     private static final String SOLVER = "Integral_solver_Core.exe";
 
     private static final int PROCESS_COUNT = 5;
-    private static final int USE_MPI = 1;
+    private static int USE_MPI = 1;
 
     public double solve(FuncDto funcDto) {
+        USE_MPI = funcDto.mpi;
+
         FileHelper.writeRes(INPUT, funcDto.toString());
         ProcessHelper.runAndWait(buildCommands());
         String content = FileHelper.readRes(OUTPUT);

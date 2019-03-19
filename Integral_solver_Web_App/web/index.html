@@ -2,9 +2,33 @@
     <head>
         <title>_INTEGRAL_</title>
         <meta charset="UTF-8">
+        <script type="text/javascript" src="logic.js"></script>
+
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h2>Hello World!</h2><br><br>
-        <a href="/Integral_solver_Web_App_war_exploded/integral/solve">check servlet</a>
+        <form>
+            Функция:<br>
+            <input id="function" type="text" name="function"><br><br>
+            x1:<input id="x1" type="text" name="x1"> x2:<input id="x2" type="text" name="x2"><br>
+            y1:<input id="y1" type="text" name="y1"> y2:<input id="y2" type="text" name="y2"><br>
+            z1:<input id="z1" type="text" name="z1"> z2:<input id="z2" type="text" name="z2"><br>
+            <br>
+            Использовать MPI (1 - да, 0 - нет):<br>
+            <input id="mpi" type="text" name="mpi"><br>
+            <br>
+            <input type="button" onclick="solve();" value="решить">
+            <input type="button" onclick="reset();" value="сбросить">
+        </form>
+
+        <br><br><br>
+        <div id="progress" class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        <br><br>
+        Решение: <span id="solution"></span><br>
+        Время: <span id="time"></span>
+
+        <script>
+            toggleProgress();
+        </script>
     </body>
 </html>
