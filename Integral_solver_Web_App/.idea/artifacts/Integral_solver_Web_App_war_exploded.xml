@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Integral_solver_Web_App:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Integral_solver_Web_App_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Integral_solver_Web_App/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Integral_solver_Web_App" />
+        </element>
+        <element id="directory" name="res" />
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.google.code.gson:gson:2.8.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

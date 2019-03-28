@@ -1,0 +1,67 @@
+[2019-03-18 12:45:13] INFO: 
+
+
+
+
+[2019-03-18 12:45:13] INFO: 
+
+
+
+
+ka\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\
+[2019-03-18 12:45:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\input.txt
+[2019-03-18 12:45:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\output.txt
+[2019-03-18 12:45:13] INFO: read input
+[2019-03-18 12:45:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\
+[2019-03-18 12:45:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\input.txt
+[2019-03-18 12:45:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\output.txt
+[2019-03-18 12:45:13] INFO: read input
+[2019-03-18 12:45:13] INFO: input read successful
+[2019-03-18 12:45:13] INFO: 0  2  0  2  0  2
+[2019-03-18 12:45:13] INFO: input read successful
+[2019-03-18 12:45:13] INFO: 0.000000  2.000000  0.000000  2.000000  0.000000  2.000000
+[2019-03-18 12:45:13] INFO: 0  2  0  2  0  2
+[2019-03-18 12:45:13] INFO: solve integral
+[2019-03-18 12:45:13] INFO: 0.000000  2.000000  0.000000  2.000000  0.000000  2.000000
+[2019-03-18 12:45:13] INFO: solve integral
+[2019-03-18 12:45:13] INFO: 0.142857  -h_i   0.142857  -h_j   0.142857  -h_k   
+[2019-03-18 12:45:13] INFO: 0.142857  -h_i   0.142857  -h_j   0.142857  -h_k   
+[2019-03-18 12:45:18] INFO: -38.987584  -result   
+[2019-03-18 12:45:18] INFO: solved, result = -38.987584
+[2019-03-18 12:45:18] INFO: write output
+[2019-03-18 12:45:18] INFO: output write successful
+[2019-03-18 12:45:18] INFO: -38.987584  -result   
+[2019-03-18 12:45:18] INFO: solved, result = -38.987584
+[2019-03-18 12:45:18] INFO: write output
+[2019-03-18 12:45:18] INFO: output write successful
+[2019-03-18 12:51:13] INFO: 
+
+
+
+
+[2019-03-18 12:51:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\
+[2019-03-18 12:51:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\input.txt
+[2019-03-18 12:51:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\output.txt
+[2019-03-18 12:51:13] INFO: read input
+[2019-03-18 12:51:13] INFO: input read successful
+[2019-03-18 12:51:13] INFO: 0  2  0  2  0  2
+[2019-03-18 12:51:13] INFO: 0.000000  2.000000  0.000000  2.000000  0.000000  2.000000
+[2019-03-18 12:51:13] INFO: solve integral
+[2019-03-18 12:51:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\
+[2019-03-18 12:51:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\input.txt
+[2019-03-18 12:51:13] INFO: D:\Studies\Erika\CCI\lab1\Integral_solver_MPI\Integral_solver_MPI\Integral_solver_Core\output.txt
+[2019-03-18 12:51:13] INFO: read input
+[2019-03-18 12:51:13] INFO: input read successful
+[2019-03-18 12:51:13] INFO: 0  2  0  2  0  2
+[2019-03-18 12:51:13] INFO: 0.000000  2.000000  0.000000  2.000000  0.000000  2.000000
+[2019-03-18 12:51:13] INFO: solve integral
+[2019-03-18 12:51:13] INFO: 0.142857  -h_i   0.142857  -h_j   0.142857  -h_k   
+[2019-03-18 12:51:13] INFO: 0.142857  -h_i   0.142857  -h_j   0.142857  -h_k   
+[2019-03-18 12:51:18] INFO: -38.987584  -result   
+[2019-03-18 12:51:18] INFO: solved, result = -38.987584
+[2019-03-18 12:51:18] INFO: write output
+[2019-03-18 12:51:18] INFO: output write successful
+[2019-03-18 12:51:19] INFO: -38.987584  -result   
+[2019-03-18 12:51:19] INFO: solved, result = -38.987584
+[2019-03-18 12:51:19] INFO: write output
+[2019-03-18 12:51:19] INFO: output write successful
